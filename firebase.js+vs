@@ -1,0 +1,18 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBaQ5fQALIdbEDWl2UJ7bH-e4LXdSnyJd4",
+  authDomain: "virtual-pet-c167c.firebaseapp.com",
+  databaseURL: "https://virtual-pet-c167c-default-rtdb.firebaseio.com",
+  projectId: "virtual-pet-c167c",
+  storageBucket: "virtual-pet-c167c.appspot.com",
+  messagingSenderId: "550704224145",
+  appId: "1:550704224145:web:0cad4d464254926e6bec30"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
